@@ -13,7 +13,7 @@
             }
         </style>
     </head>
-    <body>
+    <body id="target">
         <header><a href="./"><h1>Javescript</h1></a></header>
         <nav>
             <ol>
@@ -23,6 +23,11 @@
             </ol>
         </nav>
         
+        <div id="control">
+            <input type="button", value="white", onclick="document.getElementById('target').className='white'" />
+            <input type="button", value="black", onclick="document.getElementById('target').className='black'" />
+        </div>
+
         <img src="./resource/happy_bday.jpg" alt="으악!", width="600", height="500" loading="lazy">
         <link rel="stylesheet" href="">
 

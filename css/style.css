@@ -3,6 +3,16 @@ header {
     padding: 20px;
 }
 
+body
+.white {
+    background-color: white;
+    color: black;
+}
+.black {
+    background-color: black;
+    color: white;
+}
+
 nav {
     border-right: 1px solid gray;
     width: 200px;
@@ -21,5 +31,9 @@ article {
 
 h2 {
     font-size: 50px;
+}
+
+#control {
+    float: right;
 }
 
