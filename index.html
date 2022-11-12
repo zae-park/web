@@ -1,33 +1,25 @@
 <!DOCTYPE html>
-<html>
+<html lang="ko">
     <head>
         <meta charset="utf-8">
-        <link rel="stylesheet", type="text/css", href="./css/style.css">
-        <style>
-            img {
-                align-items: center;
-                margin-top: auto;
-                margin-left: auto;
-                margin-right: auto;
-                margin-bottom: auto;
-            }
+        <meta name="viewpoint", content="width=device-width">
+        <title>zae-park</title>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+        <link rel="stylesheet" href="css/style2.css">
         </style>
     </head>
-    <body id="target">
-        <header><a href="./"><h1>Javescript</h1></a></header>
-        <nav>
-            <ol>
-                <li><a href="./page_html.html">Javescript란?</a></li>
-                <li><a href="./vandc.html">변수와 상수</a></li>
-                <li><a href="./op.html">연산자</a></li>
-            </ol>
-        </nav>
-        
-        <div id="control">
-            <input type="button", value="white", id="white_btn" />
-            <input type="button", value="black", id="black_btn" />
+    <body>
+        <div class="wrap">
+            <h1>
+                <span class="material-symbols-outlined">
+                    no_drinks
+                </span>
+            </h1>
+            <p id="dynamic" class="lg-text">
+                No Drink !
+            </p>
+            <p class="sm-text">zae-park</p>
         </div>
-        <img src="./resource/happy_bday.jpg" alt="으악!", width="600", height="500" loading="lazy">
-        <script src="./javascript/buttons.js"></script>
+        <script src="./javascript/cursor.js"></script>
     </body>
 </html>
