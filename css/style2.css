@@ -55,3 +55,12 @@ body {
     color: wheat;
     text-align: center;
 }
+
+.old_index {
+    position: relative;
+    top: 800px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: wheat;
+    text-align: center;
+}
