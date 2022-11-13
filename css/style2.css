@@ -37,7 +37,7 @@ body {
     content: "";
     display: block;
     position: absolute;
-    top: 0;
+    top: 0px;
     right: -10px;
     width: 6px;
     height: 100%;
@@ -45,4 +45,13 @@ body {
 }
 #dynamic.active::after {
     display: none;
+}
+
+.colors {
+    position: relative;
+    top: 800px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: wheat;
+    text-align: center;
 }
